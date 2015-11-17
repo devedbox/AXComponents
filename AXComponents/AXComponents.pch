@@ -1,0 +1,17 @@
+//
+//  AXComponents.pch
+//  AXComponents
+//
+//  Created by ai on 15/11/17.
+//  Copyright © 2015年 AiXing. All rights reserved.
+//
+
+#ifndef AXComponents_pch
+#define AXComponents_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* AXComponents_pch */
+
+#import "AXPracticalHUD.h"
