@@ -231,7 +231,7 @@
 
 - (CGSize)sizeThatFits:(CGSize)size {
     CGSize susize = [super sizeThatFits:size];
-    susize.width = [UIScreen mainScreen].applicationFrame.size.width;
+    susize.width = [[UIScreen mainScreen] bounds].size.width;
     
     switch (_style) {
         case AXPickerViewStyleNormal:
